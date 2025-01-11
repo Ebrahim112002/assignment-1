@@ -200,8 +200,7 @@ transition: all 0.2s ease;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: lightblue;
-    /* margin-left: 105px; */
+    margin-bottom: 80px;
 
 }
 .vision-cnt h1{
@@ -306,3 +305,266 @@ transition: all 0.2s ease;
     color: #fff;
     transform: scale(1.05);
 }
+.vision-yunus{
+    margin-top: 0;
+    width: 1480px;
+    height: 256px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 48px 24px 48px 24px;
+background-image: url('../assets/quote-bg.png');
+background-repeat: no-repeat;
+background-position: top left;
+background-size:64px;
+background-position: 40px 40px;
+
+}
+.yunus-p1{
+    color: rgba(14, 14, 14, 0.8);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+}
+.vision-yunus-cnt h3{
+    color: rgba(14, 14, 14, 0.8);
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+margin-bottom: 4px;
+}
+.yunus-p2{
+    color: rgba(14, 14, 14, 0.6);
+margin-top: 0;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+
+/* news sec style */
+.news {
+
+    max-width: 1480px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    padding: 0px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.news h1 {
+    margin-top: 0;
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+.news p {
+    margin-top: 0;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.news1 {
+    width: 1380px;
+    height: 402px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 48px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    gap: 40px;
+    margin-bottom: 32px;
+}
+
+.news1-img img {
+    border-radius: 24px;
+    width: 408px;
+    height: 306px;
+}
+
+.news1-cnt {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.news1-cnt h1 {
+    margin-bottom: 0;
+}
+
+.news1-cnt img {
+    width: 134px;
+    height: 40px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.news1-cnt p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.news1-cnt-p2 {
+    margin-top: 0;
+}
+
+.news1-btn {
+    margin-top: 30px;
+    position: static;
+    width: 169px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 26px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.news1-btn:hover {
+    background-color: red;
+    color: #fff;
+    padding: 18px 36px;
+    transform: scale(1.05);
+}
+.news1-reverse {
+    flex-direction: row-reverse;
+}
+
+/* donate sec style */
+.donate{
+width: 100%;
+max-width: 1480px;
+height: 464px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+
+padding: 0px;
+margin: 0 auto;
+background-color: lightblue;
+margin-bottom: 80px;
+margin-top: 0;
+}
+
+.donate h1{
+    color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+text-align: center;
+margin-top: 0;
+margin-bottom: 24px;
+}
+.donate p{
+    width: 1180px;
+height: 48px;
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+margin-top: 0;
+margin-bottom: 32px;
+}
+.donate-cnt{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+.donate-amnt button{
+    width: 240px;
+height: 128px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+color: rgba(14, 14, 14, 0.8);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+cursor: pointer;
+transition: all 0.2s ease;
+
+}
+.donate-amnt button:hover{
+    background-color: green;
+    color: #fff;
+    padding: 18px 36px;
+    transform: scale(1.05);
+}
+
+#donate-clr{
+background: rgb(198, 228, 214);
+}
+#donate-clr:hover{
+    background-color: green;
+    color: #fff;
+    padding: 18px 36px;
+    transform: scale(1.05);
+}
+.donate-other input{
+   margin-top: 0;
+   width: 950px;
+height: 24px;
+padding: 20px 40px 20px 40px;
+background: rgb(255, 255, 255);
+border: none;
+margin-bottom: 32px;
+}
+.donate-other input::placeholder{
+    text-align: center;
+}
+
+.donate-btn{
+    margin-top: 0;
+    box-sizing: border-box;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+width: 160px;
+height: 76px;
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+border: none;
+}
+.donate-btn:hover{
+    background-color: red;
+    color: #fff;
+    transform: scale(1.05);
+}
+
