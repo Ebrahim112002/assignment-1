@@ -160,6 +160,11 @@ transition: all 0.2s ease;
     justify-content: flex-start;
     align-items: flex-start;
     text-align: left;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.pillars-cnt:hover{
+    transform: scale(1.05);
 }
 
 .pillars-cnt img {
@@ -184,4 +189,120 @@ transition: all 0.2s ease;
     line-height: 24px;
 }
 
+/* vision section styles */
+.vision{
+    margin-top: 0;
+    width: 100%;
+    max-width: 1480px;
+    height: 765px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: lightblue;
+    /* margin-left: 105px; */
 
+}
+.vision-cnt h1{
+    color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+margin-top: 0;
+margin-bottom: 24px;
+}
+.vision-cnt p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+.vision-cnt-flex{
+    margin-top: 0;
+    gap: 50px;
+    margin-bottom: 32px;
+}
+.vision-cnt-ed1{
+    width: 450px;
+height: 325px;
+    box-sizing: border-box;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+}
+.vision-cnt-ed1 button{
+    width: 122px;
+height: 41px;
+padding: 11px 20px 11px 20px;
+border-radius: 8px;
+background: rgb(84, 144, 245);
+border: none;
+color: rgb(255, 255, 255);
+font-size: 16px;
+cursor: pointer;
+transition: all 0.2s ease;
+
+}
+.vision-cnt-ed1 p{
+    margin-bottom: 40px;
+}
+.vision-cnt-ed2{
+    width: 450px;
+    height: 325px;
+     box-sizing: border-box;
+    border-radius: 16px;
+    box-sizing: border-box;
+background: rgb(198, 228, 214);
+
+
+}
+.vision-cnt-ed2 p{
+    margin-bottom: 40px;
+}
+.vision-cnt-ed2 button{
+    width: 122px;
+height: 41px;
+padding: 11px 20px 11px 20px;
+border-radius: 8px;
+background: rgb(9, 161, 92);
+border: none;
+color: rgb(255, 255, 255);
+font-size: 16px;
+margin-top: 0;
+cursor: pointer;
+transition: all 0.2s ease;
+}
+.vision-cnt-ed3{
+    box-sizing: border-box;
+    border-radius: 16px;
+   background: rgb(247, 235, 207);
+   width: 450px;
+    height: 325px;
+
+}
+.vision-cnt-ed3 p{
+    margin-bottom: 30px;
+}
+.vision-cnt-ed3 button{
+    width: 122px;
+height: 41px;
+padding: 11px 20px 11px 20px;
+border-radius: 8px;
+background: rgb(255, 194, 57);
+border: none;
+color: rgb(255, 255, 255);
+font-size: 16px;
+margin-top: 0;
+cursor: pointer;
+transition: all 0.2s ease;
+}
+.vision-btn:hover{
+    background-color:red;
+    color: #fff;
+    transform: scale(1.05);
+}
