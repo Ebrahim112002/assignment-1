@@ -572,7 +572,7 @@ transition: all 0.2s ease;
 /*subscribe sec style  */
 .subscribe{
     margin-top: 0;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
    max-width: 1280px ;
     width:100%;
 height: 395px;
@@ -655,4 +655,36 @@ transition: all 0.2s ease;
 font-size: 16px;
 font-weight: 400;
 line-height: 19px;
+}
+
+/* footer sec style */
+footer{
+    margin-top: 80px;
+    width: 100%;
+    max-width: 1350px;
+height: 226px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+padding: 50px 160px 50px 160px;
+    background: rgb(255, 255, 255);
+}
+.footer-cnt{
+    color: rgb(14, 14, 14);
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+margin-bottom: 64px;
+
+}
+.footer-icon{
+    margin-top: 0;
+    display: flex;
+    gap: 20px;
+}
+.footer-icon img{
+    width: 24px;
+height: 24px;
 }
